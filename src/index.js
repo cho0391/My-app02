@@ -9,6 +9,15 @@ import InputExam from './components/step02/InputExam';
 import CountEx from './components/step03/CountEx';
 import CheckEx from './components/step03/CheckEx';
 import ToDoList from './components/step04/ToDoList';
+import ProfileEx from './components/step05/ProfileEx';
+import TempEx from './components/step06/TempEx';
+import FormEx from './components/step07/FormEx';
+import TestNumberCounter2 from './TestFolder/TestNumberCounter2';
+import TestInputExam from './TestFolder/TestInputExam';
+import TestCountEx from './TestFolder/TestCountEx';
+import TestCheckEx from './TestFolder/TestCheckEx';
+import TestTodoList from './TestFolder/TestTodoList';
+import TestProfileEx from './TestFolder/TestProfileEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +28,15 @@ root.render(
     {/* <InputExam/> */}
     {/* <CountEx/> */}
     {/* <CheckEx/> */}
-    <ToDoList/>
+    {/* <ToDoList/> */}
+    {/* <ProfileEx/> */}
+    {/* <TempEx/> */}
+    {/* <FormEx /> */}
+    {/* <TestNumberCounter2/> */}
+    {/* <TestInputExam/> */}
+    {/* <TestCountEx/> */}
+    {/* <TestTodoList/> */}
+    <TestProfileEx/>
   </React.StrictMode>
 );
 
