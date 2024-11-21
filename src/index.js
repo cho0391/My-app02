@@ -18,6 +18,15 @@ import TestCountEx from './TestFolder/TestCountEx';
 import TestCheckEx from './TestFolder/TestCheckEx';
 import TestTodoList from './TestFolder/TestTodoList';
 import TestProfileEx from './TestFolder/TestProfileEx';
+import EffectTest from './components/step08/EffectTest';
+import EffectTest02 from './components/step08/EffectTest02';
+import EffectTest03 from './components/step08/EffectTest03';
+import EffectTest04 from './components/step08/EffectTest04';
+import MemoTest01 from './components/step09/MemoTest01';
+import MemoTest02 from './components/step09/MemoTest02';
+import TestEffect04 from './TestFolder/TestEffect04';
+import TestEffect03 from './TestFolder/TestEffect03';
+import MeomoTest03 from './components/step09/MeomoTest03';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,7 +45,15 @@ root.render(
     {/* <TestInputExam/> */}
     {/* <TestCountEx/> */}
     {/* <TestTodoList/> */}
-    <TestProfileEx/>
+    {/* <TestProfileEx/> */}
+    {/* <EffectTest/> */}
+    {/* <EffectTest02/> */}
+    {/* <EffectTest03/> */}
+    {/* <EffectTest04/> */}
+    {/* <MemoTest01/> */}
+    <MeomoTest03/>
+    {/* <TestEffect04/> */}
+    {/* <TestEffect03/> */}
   </React.StrictMode>
 );
 
