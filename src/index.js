@@ -27,34 +27,41 @@ import MemoTest02 from './components/step09/MemoTest02';
 import TestEffect04 from './TestFolder/TestEffect04';
 import TestEffect03 from './TestFolder/TestEffect03';
 import MeomoTest03 from './components/step09/MeomoTest03';
+import MemoTest04 from './components/step09/MemoTest04';
+import CallbackTest01 from './components/step10/CallbackTest01';
+import CallBackTest02 from './components/step10/CallBackTest02';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    {/* <NumberCounter/> */}
-    {/* <NumberCounter2/> */}
-    {/* <InputExam/> */}
-    {/* <CountEx/> */}
-    {/* <CheckEx/> */}
-    {/* <ToDoList/> */}
-    {/* <ProfileEx/> */}
-    {/* <TempEx/> */}
-    {/* <FormEx /> */}
-    {/* <TestNumberCounter2/> */}
-    {/* <TestInputExam/> */}
-    {/* <TestCountEx/> */}
-    {/* <TestTodoList/> */}
-    {/* <TestProfileEx/> */}
-    {/* <EffectTest/> */}
-    {/* <EffectTest02/> */}
-    {/* <EffectTest03/> */}
-    {/* <EffectTest04/> */}
-    {/* <MemoTest01/> */}
-    <MeomoTest03/>
-    {/* <TestEffect04/> */}
-    {/* <TestEffect03/> */}
-  </React.StrictMode>
+  
+  //  <App /> 
+  //  <NumberCounter/> 
+  //  <NumberCounter2/> 
+  //  <InputExam/> 
+  //  <CountEx/> 
+  //  <CheckEx/> 
+  //  <ToDoList/> 
+  //  <ProfileEx/> 
+  //  <TempEx/> 
+  //  <FormEx /> 
+  //  <TestNumberCounter2/> 
+  //  <TestInputExam/> 
+  //  <TestCountEx/> 
+  //  <TestTodoList/> 
+  //  <TestProfileEx/> 
+  //  <EffectTest/> 
+  //  <EffectTest02/> 
+  //  <EffectTest03/> 
+  //  <EffectTest04/> 
+  //  <MemoTest01/> 
+  //  <MemoTest02/> 
+  //  <MeomoTest03/> 
+    // <MemoTest04 />
+  //  <TestEffect04/> 
+  //  <TestEffect03/>
+  // <CallbackTest01/> 
+  <CallBackTest02/> 
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
