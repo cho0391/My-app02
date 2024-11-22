@@ -30,6 +30,13 @@ import MeomoTest03 from './components/step09/MeomoTest03';
 import MemoTest04 from './components/step09/MemoTest04';
 import CallbackTest01 from './components/step10/CallbackTest01';
 import CallBackTest02 from './components/step10/CallBackTest02';
+import RefTest01 from './components/step11/RefTest01';
+import RefTest02 from './components/step11/RefTest02';
+import RefTest03 from './components/step11/RefTest03';
+import RefTest04 from './components/step11/RefTest04';
+import RefTest05 from './components/step11/RefTest05';
+import UseIdTest from './components/step12/UseIdTest';
+import TestRef01 from './TestFolder/TestRef01';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -60,8 +67,14 @@ root.render(
   //  <TestEffect04/> 
   //  <TestEffect03/>
   // <CallbackTest01/> 
-  <CallBackTest02/> 
-  
+  // <CallBackTest02/> 
+  // <RefTest01 />
+  // <RefTest02 />
+  // <RefTest03 />
+  // <RefTest04 />
+  // <RefTest05 />
+  // <UseIdTest/>
+  <TestRef01/>
 );
 
 // If you want to start measuring performance in your app, pass a function
